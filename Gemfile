@@ -1,11 +1,12 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'yajl-ruby'
 gem 'prowly'
-gem 'activesupport', '~> 2.3', :require => 'active_support'
+gem 'pushover'
+gem 'activesupport'
 
-gem 'thin'
+gem 'puma'
 
 group :development do
   gem 'heroku'

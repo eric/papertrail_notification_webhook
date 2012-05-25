@@ -10,4 +10,4 @@ Bundler.require :default
 
 require 'app'
 
-run PapertrailProwlWebhook::App.new
+run PapertrailNotificationWebhook::App.new
